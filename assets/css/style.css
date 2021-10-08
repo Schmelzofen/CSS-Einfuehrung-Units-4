@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow:auto
+}
+
+body{
+    background-image: url(../img/img.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 10px;
+}
+
+h1{
+    font-size: 2rem;
+    color: crimson;
+    background: rgba(255,255,255,0.5);
+    text-align: center;
+    margin: 2rem 3rem;
+    padding: 2rem;
+}
+
+article{
+    background: rgba(255,255,255,0.5);
+    width: 75vw;
+    margin: 0 auto;
+    padding: 5em;
+
+}
+h2{
+    font-size: 4em;
+    font-family: Helvetica;
+}
+
+p{
+    font-size: 1.5em;
+    font-weight: bold;
+}
